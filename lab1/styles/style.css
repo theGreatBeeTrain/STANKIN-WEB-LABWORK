@@ -1,0 +1,12 @@
+* {
+    animation: change-bg 10s step-end infinite;
+}
+
+button {
+	color: white;
+	background-color: indigo;
+}
+
+body {
+	color: lavander;
+}

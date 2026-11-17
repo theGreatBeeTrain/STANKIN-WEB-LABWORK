@@ -1,0 +1,109 @@
+body {
+    min-width: 850px;
+    background-color: lavender;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 45px;
+    color: white;
+    font-family: William, serif;
+    font-weight: normal;
+    font-size: 31px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 35px;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 31px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Inter, sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 210px;
+    margin-bottom: 80px;
+}
+
+div.main {
+    margin: 0 auto 20px;
+    width: 500px;
+}
+
+.face {
+    background-color: indigo;
+    height: 500px;
+    text-align: center;
+    /*    background-color: deepskyblue;*/
+}
+
+.desc * {
+    color: black;
+    padding-top: 5px;
+}
+
+.desc {
+    /*background-color: indigo;*/
+    padding: 5px 0 15px 0;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.list {
+    background-color: indigo;
+    background: linear-gradient(indigo, blue, indigo);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.song {
+/*    background-color: lavenderblush;*/
+    width: 490px;
+    height: 100px;
+    margin: 5px auto 5px;
+    border-radius: 5px;
+}
+
+div.song audio{
+    position: absolute;
+    width: 250px;
+    padding-top: 30px;
+    padding-left: 225px;
+}
+
+.song_title {
+    display: block;
+    position: absolute;
+    width: 150px;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: Inter, sans-serif;
+    color: lavenderblush;
+}
+
+img {
+    border-radius: 25px 5px;
+}
+
+h3 {
+    margin: 0;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
